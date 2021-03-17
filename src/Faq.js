@@ -2,7 +2,7 @@ import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
-import { Navbar, Nav, Button } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 function App() {
@@ -21,28 +21,15 @@ function App() {
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/Faq">FAQ</Nav.Link>
+            <Nav.Link href="#faq">FAQ</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
-      <Img />
       <Footer />
 
     </div>
   );
-}
-
-function Img() {
-  return (
-    <div id="container-uziel">
-      <img src="spotify-theme.png" class="image-theme" />
-      <div class="image-text">
-        <p>Escutar muda sua vida, deixa ela mais triste.</p>
-        <Button variant="success" id="uziel-lindo"><strong>Baixar Agora</strong></Button>{' '}
-      </div>
-    </div>
-  )
 }
 
 function Footer() {

@@ -32,7 +32,42 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#container-uziel {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image-theme {
+  width: 100%;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#uziel-lindo { 
+  border-radius: 20px;
+  color: #191414;
+  width: 18%;
+  background-color: #00d95a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#image-footer {
+  width: 40%;
+  height: 80%;
 }
