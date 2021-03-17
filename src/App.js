@@ -4,6 +4,7 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import { Navbar, Nav, Button } from 'react-bootstrap'
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { Link } from 'react-router-dom'
 
 function App() {
   return (
@@ -21,14 +22,13 @@ function App() {
         </Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="/Faq">FAQ</Nav.Link>
+          <Link to="/faq"><Nav.Link href="/Faq">FAQ</Nav.Link></Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
       <Img />
       <Footer />
-
     </div>
   );
 }
