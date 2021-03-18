@@ -50,10 +50,10 @@ function Footer() {
     <MDBFooter color="black" className="font-small py-3 ">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
-          <MDBCol md="2">
+          <MDBCol md="3">
             <img src="spotify-logo-22.png" id="image-footer" />
           </MDBCol>
-          <MDBCol md="2">
+          <MDBCol md="3">
             <h5 className="title">EMPRESA</h5>
             <ul>
               <li className="list-unstyled">
@@ -67,7 +67,7 @@ function Footer() {
               </li>
             </ul>
           </MDBCol>
-          <MDBCol md="2">
+          <MDBCol md="3">
             <h5 className="title">COMUNIDADES</h5>
             <ul>
               <li className="list-unstyled">
@@ -87,7 +87,7 @@ function Footer() {
               </li>
             </ul>
           </MDBCol>
-          <MDBCol md="6">
+          <MDBCol md="3">
             <h5 className="title">LINKS ÚTEIS</h5>
             <ul>
               <li className="list-unstyled">
